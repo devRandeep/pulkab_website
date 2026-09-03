@@ -20,8 +20,9 @@ const team = () => {
                     {teamData.map((person, index) => (
                         <div 
                             key={person.id} 
-                            className="flex flex-col justify-center items-center text-center gap-3  py-5 duration-400 rounded-xl animate-team-card hover:scale-105"
-                            style={{ animationDelay: `${index * 100}ms` }}
+                            className="flex flex-col justify-center items-center text-center gap-3  py-5 duration-400 rounded-xl animate-team-card hover:scale-105 cursor-pointer"
+                            style={{ animationDelay: `${index * 100}ms`  }}
+                            onClick={() => { setselectedPerson(person) }}
                         >
                             <div className="h-[200px] w-[200px] rounded-full overflow-hidden">
                                 <img src={person.image} alt={person.name} className="h-full w-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
