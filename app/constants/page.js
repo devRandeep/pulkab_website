@@ -310,4 +310,7 @@ export const teamData = [
   }
 ];
 
+export default function ConstantsPage() {
+  return null;
+}
 
