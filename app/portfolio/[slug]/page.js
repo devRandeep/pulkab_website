@@ -3,6 +3,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { portfolioDatas } from "../../constants/page";
 
+export async function generateStaticParams() {
+  return portfolioDatas.map((item) => ({
+    slug: item.slug,
+  }));
+}
+
 const Page = async ({ params }) => {
   // ✅ Next.js 15 requires await
   const { slug } = await params;
