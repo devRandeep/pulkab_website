@@ -83,9 +83,9 @@ const page = () => {
         </div>
       </div>
 
-      <p className="md:w-6xl w-full md:mx-auto mx-5 font-serif  md:text-5xl text-3xl">
+      <h2 className="md:w-6xl w-full md:mx-auto mx-5 font-serif  md:text-5xl text-3xl">
         Our Recent work
-      </p>
+      </h2>
 
       <Portfolio />
     </section>

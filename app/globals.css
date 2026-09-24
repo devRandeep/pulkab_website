@@ -79,3 +79,18 @@ nav a, p {
   animation: popupZoom 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
+/* Continuous smooth floating up and down animation */
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+
+
