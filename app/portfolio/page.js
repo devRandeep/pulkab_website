@@ -20,7 +20,7 @@ const Page = () => {
               alt={item.title}
               width={800}
               height={650}
-              className="w-full md:h-[500px] h-[200] object-cover transition duration-700 group-hover:scale-105"
+              className="w-full md:h-[500px] h-[200] object-cover object-top transition duration-700 group-hover:scale-105"
             />
 
             {/* Overlay */}
@@ -29,7 +29,7 @@ const Page = () => {
             {/* Text */}
             <div className="absolute left-8 bottom-8 text-white translate-y-8 opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100">
               <h2 className="text-5xl font-serif">{item.title}</h2>
-              <p className="mt-2 text-lg text-white/80">{item.category}</p>
+              <p className="mt-2 text-lg text-white/80 hover:underline">View Project</p>
             </div>
 
             {/* Arrow */}

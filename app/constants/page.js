@@ -102,11 +102,12 @@ export const contactData = {
 export const portfolioDatas = [
   {
     id: 1,
-    slug: "branding",
-    title: "Branding",
+    slug: "Pentacare",
+    title: "Pentacare",
     category: "Brand Identity",
+    url:"#",
     image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80",
+      "/portfolio/Pentacare showcase.png",
     description:
       "A complete branding project focused on building a memorable visual identity through logo design, typography, color palettes, and brand guidelines.",
     gallery: [
@@ -116,12 +117,13 @@ export const portfolioDatas = [
     ]
   },
   {
-    id: 2,
-    slug: "web-design",
-    title: "Web Design",
+    id: 2,  
+    slug: "Ultrasound Diagnostic",
+    title: "Ultrasound Diagnostic",
     category: "UI / UX Design",
+    url:"#",
     image:
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80",
+      "/portfolio/Ultrasound Diagnostic.png",
     description:
       "Modern website design with responsive layouts, intuitive navigation, engaging user interfaces, and seamless user experiences.",
     gallery: [
@@ -132,11 +134,12 @@ export const portfolioDatas = [
   },
   {
     id: 3,
-    slug: "packaging",
-    title: "Packaging",
+    slug: "Bales",
+    title: "Bales College",
     category: "Packaging Design",
+    url:"#",
     image:
-      "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1600&q=80",
+      "/portfolio/Bales showcase.png",
     description:
       "Premium packaging concepts designed to elevate products with creative layouts, luxury finishes, and memorable unboxing experiences.",
     gallery: [
@@ -147,11 +150,12 @@ export const portfolioDatas = [
   },
   {
     id: 4,
-    slug: "logo-design",
-    title: "Logo Design",
+    slug: "little-acorns",
+    title: "Little Acorns",
     category: "Creative Identity",
+    url:"#",
     image:
-      "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1600&q=80",
+      "/portfolio/Little Acorns.png",
     description:
       "Unique logo concepts that establish strong brand recognition through timeless and meaningful visual identities.",
     gallery: [
@@ -162,11 +166,12 @@ export const portfolioDatas = [
   },
   {
     id: 5,
-    slug: "mobile-app",
-    title: "Mobile App",
+    slug: "bridforth",
+    title: "Bridforth Hall",
     category: "App UI / UX",
+    url:"#",
     image:
-      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1600&q=80",
+      "/portfolio/bridforth-shoecase.png",
     description:
       "Beautiful mobile application interfaces designed for Android and iOS with a focus on usability and performance.",
     gallery: [
@@ -177,11 +182,12 @@ export const portfolioDatas = [
   },
   {
     id: 6,
-    slug: "social-media",
-    title: "Social Media",
+    slug: "longman-gates",
+    title: "Longman Gates",
     category: "Digital Marketing",
+    url:"#",
     image:
-      "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1600&q=80",
+      "/portfolio/Longman gates.png",
     description:
       "Eye-catching social media creatives crafted to maximize engagement and strengthen digital brand presence.",
     gallery: [
@@ -192,11 +198,11 @@ export const portfolioDatas = [
   },
   {
     id: 7,
-    slug: "motion-graphics",
-    title: "Motion Graphics",
+    slug: "cash4shares",
+    title: "Cash4shares",
     category: "Animation",
     image:
-      "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=1600&q=80",
+      "/portfolio/Cash4shares.png",
     description:
       "Dynamic motion graphics and animations created for advertisements, product launches, and brand storytelling.",
     gallery: [
@@ -207,11 +213,11 @@ export const portfolioDatas = [
   },
   {
     id: 8,
-    slug: "photography",
-    title: "Photography",
+    slug: "clinicare",
+    title: "Clinicare",
     category: "Creative Photography",
     image:
-      "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1600&q=80",
+      "/portfolio/clinicare.png",
     description:
       "Professional photography showcasing products, architecture, lifestyle, and branding with cinematic dark aesthetics.",
     gallery: [
