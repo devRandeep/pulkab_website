@@ -1,12 +1,13 @@
 "use client";
 
 import React, { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { HEADER_DATA } from "../constants/page";
 
 const NavPage = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <header className="bg-black text-white w-full">
@@ -44,30 +45,48 @@ const NavPage = () => {
         }`}
       >
         <nav className="flex flex-col items-start px-6 space-y-4">
-          {HEADER_DATA.navLinks.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="md:text-[18px] text-[14px] font-inter border-b border-gray-600 pb-1 w-full"
-              onClick={() => setIsOpen(false)}
-            >
-              {item.title}
-            </Link>
-          ))}
+          {HEADER_DATA.navLinks.map((item) => {
+            const isActive =
+              item.href === "/"
+                ? pathname === "/"
+                : pathname === item.href || pathname.startsWith(`${item.href}/`);
+
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`md:text-[18px] text-[14px] font-inter border-b border-gray-600 pb-1 w-full transition-colors ${
+                  isActive ? "text-[#e558e5]" : "hover:text-[#e558e5]"
+                }`}
+                onClick={() => setIsOpen(false)}
+              >
+                {item.title}
+              </Link>
+            );
+          })}
         </nav>
       </div>
 
       {/* Desktop Menu */}
       <nav className="hidden md:flex justify-center gap-8 py-4">
-        {HEADER_DATA.navLinks.map((item) => (
-          <Link
-            key={item.href}
-            href={item.href}
-            className="text-[18px] font-inter hover:text-[#aaaaaa]"
-          >
-            {item.title}
-          </Link>
-        ))}
+        {HEADER_DATA.navLinks.map((item) => {
+          const isActive =
+            item.href === "/"
+              ? pathname === "/"
+              : pathname === item.href || pathname.startsWith(`${item.href}/`);
+
+          return (
+            <Link
+              key={item.href}
+              href={item.href}
+              className={`text-[18px] font-inter transition-colors ${
+                isActive ? "text-[#e558e5]" : "hover:text-[#e558e5]"
+              }`}
+            >
+              {item.title}
+            </Link>
+          );
+        })}
       </nav>
       
     </header>

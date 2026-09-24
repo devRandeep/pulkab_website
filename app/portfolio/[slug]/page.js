@@ -24,7 +24,7 @@ const Page = async ({ params }) => {
     <section className=" mx-auto md:px-6 px-3 md:py-20 py-10 relative z-0">
       <Link
         href="/portfolio"
-        className="inline-flex items-center gap-2  text-lg hover:underline text-white"
+        className="inline-flex items-center gap-2  text-lg hover:underline text-white hover:text-[#e558e5]"
       >
         ← Back to Portfolio
       </Link>
@@ -34,7 +34,7 @@ const Page = async ({ params }) => {
           {project.title}
         </h1>
 
-        <a href={project.url} className="text-lg text-white  flex items-center gap-2 underline">
+        <a href={project.url} className="text-lg text-white  flex items-center gap-2 underline hover:text-[#e558e5]">
           <Image src="/googleIcon.png" alt="View Project" width={23} height={23} />
           Website Coming Soon...
         </a>

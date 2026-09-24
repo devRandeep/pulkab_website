@@ -225,6 +225,21 @@ export const portfolioDatas = [
       "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?auto=format&fit=crop&w=1200&q=80"
     ]
+  },
+   {
+    id: 9,
+    slug: "Hdeyes",
+    title: "Hdeyes",
+    category: "Creative Photography",
+    image:
+      "/portfolio/Hdeyes.png",
+    description:
+      "Professional photography showcasing products, architecture, lifestyle, and branding with cinematic dark aesthetics.",
+    gallery: [
+      "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?auto=format&fit=crop&w=1200&q=80"
+    ]
   }
 ];
 

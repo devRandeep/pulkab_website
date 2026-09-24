@@ -20,7 +20,7 @@ const page = () => {
         </Link>
 
         {/* Contact */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-left">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-left  ">
           {footerData.contact.map((item) => {
             const Icon = item.icon;
 
@@ -28,7 +28,7 @@ const page = () => {
               <Link
                 key={item.id}
                 href={item.href}
-                className="group flex items-center gap-2 md:text-[17px] text-[14px] text-white transition hover:text-gray-300 font-roboto"
+                className="group flex items-center gap-2 md:text-[17px] text-[14px] text-white transition hover:text-[#e558e5] font-roboto "
               >
                 <Icon
                   size={18}

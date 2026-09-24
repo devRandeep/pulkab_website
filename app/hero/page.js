@@ -57,8 +57,8 @@ const Page = () => {
 
         <motion.div variants={fadeUp}>
           <Link
-            href="#"
-            className="text-white text-left text-2xl md:text-4xl lg:text-[50px] py-6 md:py-8 underline underline-offset-4 hover:text-gray-300 transition-colors"
+            href="/work"
+            className="text-white text-left text-2xl md:text-4xl lg:text-[50px] py-6 md:py-8 underline underline-offset-4 hover:text-[#e558e5] transition-colors"
           >
             See our work
           </Link>
