@@ -19,8 +19,6 @@ export const HEADER_DATA = {
       title: "Contact",
       href: "/contact"
     }
-    
-    
   ]
 };
 
@@ -102,7 +100,7 @@ export const contactData = {
 export const portfolioDatas = [
   {
     id: 1,
-    slug: "Pentacare",
+    slug: "pentacare",
     title: "Pentacare",
     category: "Brand Identity",
     url:"#",
@@ -110,15 +108,10 @@ export const portfolioDatas = [
       "/portfolio/Pentacare showcase.png",
     description:
       "A complete branding project focused on building a memorable visual identity through logo design, typography, color palettes, and brand guidelines.",
-    gallery: [
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1200&q=80"
-    ]
   },
   {
     id: 2,  
-    slug: "Ultrasound Diagnostic",
+    slug: "ultrasound-diagnostic",
     title: "Ultrasound Diagnostic",
     category: "UI / UX Design",
     url:"#",
@@ -126,15 +119,11 @@ export const portfolioDatas = [
       "/portfolio/Ultrasound Diagnostic.png",
     description:
       "Modern website design with responsive layouts, intuitive navigation, engaging user interfaces, and seamless user experiences.",
-    gallery: [
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80"
-    ]
+ 
   },
   {
     id: 3,
-    slug: "Bales",
+    slug: "bales",
     title: "Bales College",
     category: "Packaging Design",
     url:"#",
@@ -142,11 +131,7 @@ export const portfolioDatas = [
       "/portfolio/Bales showcase.png",
     description:
       "Premium packaging concepts designed to elevate products with creative layouts, luxury finishes, and memorable unboxing experiences.",
-    gallery: [
-      "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80"
-    ]
+  
   },
   {
     id: 4,
@@ -158,11 +143,7 @@ export const portfolioDatas = [
       "/portfolio/Little Acorns.png",
     description:
       "Unique logo concepts that establish strong brand recognition through timeless and meaningful visual identities.",
-    gallery: [
-      "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=1200&q=80"
-    ]
+ 
   },
   {
     id: 5,
@@ -174,11 +155,7 @@ export const portfolioDatas = [
       "/portfolio/bridforth-shoecase.png",
     description:
       "Beautiful mobile application interfaces designed for Android and iOS with a focus on usability and performance.",
-    gallery: [
-      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=80"
-    ]
+ 
   },
   {
     id: 6,
@@ -190,11 +167,7 @@ export const portfolioDatas = [
       "/portfolio/Longman gates.png",
     description:
       "Eye-catching social media creatives crafted to maximize engagement and strengthen digital brand presence.",
-    gallery: [
-      "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1611605698335-8b1569810432?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1611262588024-d12430b98920?auto=format&fit=crop&w=1200&q=80"
-    ]
+  
   },
   {
     id: 7,
@@ -205,11 +178,7 @@ export const portfolioDatas = [
       "/portfolio/Cash4shares.png",
     description:
       "Dynamic motion graphics and animations created for advertisements, product launches, and brand storytelling.",
-    gallery: [
-      "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1200&q=80"
-    ]
+   
   },
   {
     id: 8,
@@ -220,26 +189,40 @@ export const portfolioDatas = [
       "/portfolio/clinicare.png",
     description:
       "Professional photography showcasing products, architecture, lifestyle, and branding with cinematic dark aesthetics.",
-    gallery: [
-      "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?auto=format&fit=crop&w=1200&q=80"
-    ]
+   
   },
    {
     id: 9,
-    slug: "Hdeyes",
+    slug: "hdeyes",
     title: "Hdeyes",
     category: "Creative Photography",
     image:
       "/portfolio/Hdeyes.png",
     description:
       "Professional photography showcasing products, architecture, lifestyle, and branding with cinematic dark aesthetics.",
-    gallery: [
-      "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?auto=format&fit=crop&w=1200&q=80"
-    ]
+   
+  },
+  {
+    id: 10,
+    slug: "stone-bridge",
+    title: "Stone Bridge",
+    category: "Creative Photography",
+    image:
+      "/portfolio/StoneBridge.jpg",
+    description:
+      "Professional photography showcasing products, architecture, lifestyle, and branding with cinematic dark aesthetics.",
+   
+  },
+   {
+    id: 11,
+    slug: "west-clean",
+    title: "West Clean",
+    category: "Brand Identity",
+    image:
+      "/portfolio/WestClean.jpg",
+    description:
+      "Professional photography showcasing products, architecture, lifestyle, and branding with cinematic dark aesthetics.",
+   
   }
 ];
 

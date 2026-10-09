@@ -4,7 +4,9 @@ import { notFound } from "next/navigation";
 import { portfolioDatas } from "../../constants/page";
 import ScrollToTop from "./ScrollToTop";
 
-export async function generateStaticParams() {
+export const dynamicParams = false;
+
+export function generateStaticParams() {
   return portfolioDatas.map((item) => ({
     slug: item.slug,
   }));
@@ -57,4 +59,3 @@ const Page = async ({ params }) => {
 };
 
 export default Page;
-
